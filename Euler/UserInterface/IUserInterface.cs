@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Euler
+namespace Euler.UserInterface
 {
-    class Program
+    public interface IUserInterface
     {
-        static void Main(string[] args)
-        {
-        }
+        string ReadLine();
+        void WriteLine(String line);
     }
 }
